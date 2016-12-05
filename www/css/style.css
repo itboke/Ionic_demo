@@ -1,0 +1,46 @@
+/* Empty. Add your own CSS if you like */
+
+.scroll,
+.slider {
+    height: 100%;
+}
+
+.slider .slider-slide {
+    text-align: center;
+    color: #000;
+    background-color: #fff;
+}
+
+.box {
+    height: 100%;
+}
+
+.box h1 {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.intro{
+    padding-top: 5px;
+}
+.batching{
+    padding-top: 5px;
+    white-space: normal !important;
+}
+.batching span{
+    padding-right: 5px;
+    color:#ef473a;
+}
+.platform-android .popover-backdrop.active{
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
+.platform-android .popover{
+    margin-left: -160px;
+    margin-top: -64px;
+    width: 320px;
+    height: 480px;
+    opacity: 1;
+}
+.view-container{
+    top:0;
+}

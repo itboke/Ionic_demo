@@ -1,0 +1,11 @@
+<ion-view view-title="目录大全">
+    <ion-content class="padding">
+     	<ion-slide-box class="category-slider">
+			<ion-slide ng-repeat="item in cates">
+				<a href="#/list?id={{item.id}}">
+					<ion-nav-view name="list"><div class="box {{item.color}}"><h1>{{item.name}}</h1></div></ion-nav-view>
+				</a>
+			</ion-slide>
+     	</ion-slide-box>
+    </ion-content>
+</ion-view>

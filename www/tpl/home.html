@@ -1,0 +1,13 @@
+<ion-view view-title="首页">
+	<ion-content>
+			<ion-refresher pulling-text="下拉刷新" on-refresh="doRefresh()"></ion-refresher>
+			<ion-list>
+			      <ion-item class="item item-thumbnail-left" ng-repeat = "item in list" ng-click="showStep(item);">
+			            <img ng-src="{{item.albums[0]}}">
+			            <h2 class="assertive">{{item.title}}</h2>
+			            <h4 class="intro">{{item.imtro}}</h4>
+			            <h6 class="batching"><span>配料:</span>{{item.burden}}</h6>
+			      </ion-item>
+			</ion-list>
+	</ion-content>
+</ion-view>

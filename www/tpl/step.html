@@ -1,0 +1,11 @@
+<ion-popover-view>
+    <ion-header-bar>
+        <h1 class="title">菜谱步骤</h1>
+    </ion-header-bar>
+    <ion-content>
+       <ion-item class="item item-thumbnail-left" ng-repeat = "item in steps">
+            <img ng-src="{{item.img}}">
+            <h2 class="assertive batching">{{item.step}}</h2>
+      </ion-item>
+    </ion-content>
+</ion-popover-view>
